@@ -207,10 +207,10 @@
 					<threadCount>10</threadCount>
 					<skipTests>${skipUTs}</skipTests>
 					<includes>
-						<include>**/Test*.java</include>
-						<include>**/Test.java</include>
-						<include>**/TestCase.java</include> 
-						 
+					    <include>**/*Test.java</include>
+			            <include>**/Test*.java</include>
+			            <include>**/*TestCase.java</include>
+			            <include>**/TestCase.java</include>
 					</includes>
 					<excludes>
 						<exclude>**/*Abstract*Test.java</exclude>
