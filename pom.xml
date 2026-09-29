@@ -46,7 +46,7 @@
                     <configuration>
                         <!-- Sets the path to the file where execution data is written -->
                         <destFile>${project.build.directory}/jacoco.exec</destFile>
-                        <propertyName>surefireArgLine</propertyName>
+                        <!-- propertyName>surefireArgLine</propertyName -->
                     </configuration>
                 </execution>
         
