@@ -18,6 +18,8 @@
         <github.account>puneetbhatia77</github.account>
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>addressbook</jelastic.context>
+        <!-- Add this line here -->
+        <argLine></argLine>
     </properties>
 
     <scm>
