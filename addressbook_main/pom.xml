@@ -18,6 +18,8 @@
 		   <skipTests>false</skipTests>
            <skipITs>${skipTests}</skipITs>
            <skipUTs>${skipTests}</skipUTs>
+		<!-- Add this line here -->
+        <argLine></argLine>
     </properties>
 
 	
