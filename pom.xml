@@ -19,7 +19,7 @@
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>addressbook</jelastic.context>
         <!-- Pre-declares argLine for JaCoCo property expansion -->
-        <argLine></argLine>
+        <!--argLine></argLine-->
     </properties>
 
     <scm>
