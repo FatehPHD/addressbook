@@ -197,9 +197,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.6.0</version>
 				<configuration>
-					<!-- argLine>@{surefireArgLine} -Dparallel=none -Djava.awt.headless=true</argLine -->
-			        <parallel>none</parallel>
-			        <skipTests>false</skipTests>
+					<parallel>methods</parallel>
+					<threadCount>10</threadCount>
+					<skipTests>${skipUTs}</skipTests>
 					<includes>
 						<include>**/Test*.java</include>
 						<include>**/Test.java</include>
