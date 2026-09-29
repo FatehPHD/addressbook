@@ -197,8 +197,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.6.0</version>
 				<configuration>
-					<parallel>methods</parallel>
-					<threadCount>10</threadCount>
+					<parallel>none</parallel>
+					<!-- threadCount>10</threadCount -->
 					<skipTests>${skipUTs}</skipTests>
 					<includes>
 						<include>**/Test*.java</include>
