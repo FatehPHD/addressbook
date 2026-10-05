@@ -15,11 +15,11 @@
     <name>Vaadin Addressbook example</name>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
-		<!--vaadin.skip>true</vaadin.skip>
+		<vaadin.skip>true</vaadin.skip>
     	<gwt.compiler.skip>true</gwt.compiler.skip-->
 			<sauceUser>ssriram</sauceUser>
 		<sauceKey>198ffad5-5b21-421b-9f62-847273245db2</sauceKey>
