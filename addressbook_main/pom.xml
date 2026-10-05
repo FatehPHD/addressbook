@@ -291,6 +291,8 @@
 		    <configuration>
 		        <failOnMissingWebXml>false</failOnMissingWebXml>
 		        <recompressZippedFiles>false</recompressZippedFiles>
+		        <warSourceExcludes>node_modules/**, frontend/generated/**</warSourceExcludes>
+		        <packagingExcludes>WEB-INF/classes/node_modules/**</packagingExcludes>
 		    </configuration>
 		</plugin>
         </plugins>
