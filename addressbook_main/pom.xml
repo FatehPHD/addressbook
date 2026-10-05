@@ -224,7 +224,7 @@
 				<configuration>
 					<parallel>methods</parallel>
 					<threadCount>10</threadCount>
-					<skipTests>${skipUTs}</skipTests>
+					<!--skipTests>${skipUTs}</skipTests-->
 					<includes>
 					    <include>**/*Test.java</include>
 			            <include>**/Test*.java</include>
