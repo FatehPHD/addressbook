@@ -16,9 +16,9 @@
 
     <properties>
         <!--project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
+        <failOnMissingWebXml>false</failOnMissingWebXml-->
         <vaadin.version>8.0.0.alpha2</vaadin.version>
-        <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
+        <!--vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 		<vaadin.skip>true</vaadin.skip>
     	<gwt.compiler.skip>true</gwt.compiler.skip-->
 			<sauceUser>ssriram</sauceUser>
