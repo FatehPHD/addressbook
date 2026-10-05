@@ -286,18 +286,19 @@
 					</excludes>
             </configuration>
         </plugin>
-		<plugin>
+			
+		<!--plugin>
 		    <groupId>org.apache.maven.plugins</groupId>
 		    <artifactId>maven-war-plugin</artifactId>
 		    <version>3.4.0</version>
 		    <configuration>
 		        <failOnMissingWebXml>false</failOnMissingWebXml>
 		        <recompressZippedFiles>false</recompressZippedFiles>
-		        <!--warSourceExcludes>node_modules/**, frontend/generated/**</warSourceExcludes>
+		        <warSourceExcludes>node_modules/**, frontend/generated/**</warSourceExcludes>
 		        <packagingExcludes>WEB-INF/classes/node_modules/**</packagingExcludes>
-				<archiveClasses>true</archiveClasses-->
+				<archiveClasses>true</archiveClasses>
 		    </configuration>
-		</plugin>
+		</plugin-->
         </plugins>
 		<finalName>addressbook</finalName>
     </build>
